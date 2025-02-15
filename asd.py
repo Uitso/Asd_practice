@@ -1,18 +1,15 @@
-string = dict(((i[0], i[1]) for i in list(enumerate("ActoctoraactacccartacctorActoractoaaa".lower())))) # input("Enter string: ") 
-#                                                                             ^^^^^
+string = dict(((i[0], i[1]) for i in list(enumerate("9;01asorActoRactoaaa".lower())))) # input("Enter string: ") 
+                                                            #^^^^^
 user_string = "actor".lower() # input("Enter string what you whant to find in 1-st string: ")
 
 
 # Solving with Strings
-# string = "actoacccartaactor"
+# string = "acT;ocltAActorfty".lower()
 
 # len_user_str = len(user_string)
 # for i in range(len(string)-len_user_str+1):
-#     print(string[i:len_user_str+i])
 #     if user_string == string[i:len_user_str+i]:
 #         print(i)
-
-
 
 
 i = 0
